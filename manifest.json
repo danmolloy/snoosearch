@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "SnooSearch",
+  "version": "0.1",
+  "description": "Search comment sections on Reddit.",
+
+  "content_scripts" : [
+    {
+      "matches": [
+        "https://www.reddit.com/r/*/comments/*"
+      ],
+      "js": ["snoowrap-v1.js", "content.js"]
+    }
+  ]
+}
