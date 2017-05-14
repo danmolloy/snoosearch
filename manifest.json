@@ -11,5 +11,7 @@
       ],
       "js": ["snoowrap-v1.js", "content.js"]
     }
-  ]
+  ],
+
+  "web_accessible_resources": ["auth.html"]
 }
