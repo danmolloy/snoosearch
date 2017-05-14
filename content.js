@@ -22,11 +22,14 @@ function authWithCode(){
 
 
 
-// const r = new snoowrap({
-//   userAgent: 'SnooSearch; Chrome extension',
-//   clientId: 'kT0PnulWLycbxQ',
-//   clientSecret: '',
-//   refreshToken: ''
-// });
+const r = new snoowrap({
+  userAgent: 'SnooSearch; Chrome extension',
+  clientId: 'kT0PnulWLycbxQ',
+  clientSecret: '',
+  refreshToken: ''
+});
+
+console.log(r);
+authenticate();
 
 //r.getHot().map(post => post.title).then(console.log);
